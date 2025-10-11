@@ -6,7 +6,7 @@ import Smartphone from "../assets/smartphone.png";
 
 export default function HeroSection() {
   return (
-    <div className="grid grid-cols-4 gap-5 items-end md:grid-cols-12 md:gap-10 lg:items-center">
+    <section className="grid grid-cols-4 gap-5 items-end md:grid-cols-12 md:gap-10 lg:items-center pb-[229px]">
       <div
         style={{
           backgroundImage: `url(${TextBackground})`,
@@ -22,7 +22,7 @@ export default function HeroSection() {
         <p className="leading-6 text-gray-500 mb-7.5 xl:mb-13">
           Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.
         </p>
-        <h2 className="text-xl font-semibold leading-8 xl:text-2xl xl:leading-9 uppercase mb-4.5">Download App Now</h2>
+        <h3 className="text-xl font-semibold leading-8 xl:text-2xl xl:leading-9 uppercase mb-4.5">Download App Now</h3>
         <div className="flex gap-2.5 w-3/4">
           <a href="#" className="w-1/2">
             <img src={GooglePlay} alt="google-play" className="w-full h-auto" />
@@ -33,6 +33,6 @@ export default function HeroSection() {
         </div>
       </div>
       <img src={Smartphone} alt="smartphone" className="row-start-2 col-span-4 w-3/4 place-self-center md:row-start-1 md:col-span-5 md:w-4/5 md:col-start-8 " />
-    </div>
+    </section>
   );
 }

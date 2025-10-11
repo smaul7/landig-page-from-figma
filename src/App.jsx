@@ -1,18 +1,22 @@
 import React from "react";
-import LayoutGrid from "./components/LayoutGrid";
-import Navbar from "./components/Navbar";
+import Wrapper from "./components/Wrapper";
 import background from "./assets/background.png";
+import Navbar from "./components/Navbar";
 import HeroSection from "./components/HeroSection";
+import AboutOurApp from "./components/AboutOurApp";
 
 export default function App() {
   return (
     <>
       <div style={{ backgroundImage: `url(${background})` }} className="bg-cover min-h-screen">
-        <div className="w-full mx-auto max-w-[1232px] px-4 md:px-6">
+        <Wrapper>
           <Navbar />
           <HeroSection />
-        </div>
+        </Wrapper>
       </div>
+      <Wrapper>
+        <AboutOurApp />
+      </Wrapper>
     </>
   );
 }

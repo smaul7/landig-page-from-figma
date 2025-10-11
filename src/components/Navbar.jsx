@@ -21,8 +21,8 @@ export default function Navbar() {
   };
 
   return (
-    <nav className="pb-[108px] pt-[25px]">
-      <div className="hidden md:flex my-6 justify-between">
+    <nav className="pb-[108px] pt-[40px] md:pt-[25px] lg:pt-[35px]">
+      <div className="hidden md:flex mb-[20px] justify-between">
         <div className="flex justify-between w-[375px]">
           <a href="mailto:info@youremail.com" className="flex items-center gap-2 text-white transition-all duration-300 hover:text-gray-300">
             <MailIcon className="w-5 h-5" />
@@ -45,7 +45,7 @@ export default function Navbar() {
           ))}
         </div>
       </div>
-      <div className="relative flex justify-between items-center bg-white rounded p-1 mt-10">
+      <div className="relative flex justify-between items-center bg-white rounded p-1">
         <div className="lg:hidden flex flex-col justify-end">
           <button onClick={toggleNavbar} className="flex items-center justify-center">
             {mobileDrawerOpen ? (
