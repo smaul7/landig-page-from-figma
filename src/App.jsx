@@ -1,22 +1,24 @@
 import React from "react";
 import Wrapper from "./components/Wrapper";
-import background from "./assets/background.png";
-import Navbar from "./components/Navbar";
+import Header from "./components/Header";
 import HeroSection from "./components/HeroSection";
 import AboutOurApp from "./components/AboutOurApp";
+import SiteBackgound from "./components/SiteBackground";
+import AppFeatures from "./components/AppFeatures";
 
 export default function App() {
   return (
     <>
-      <div style={{ backgroundImage: `url(${background})` }} className="bg-cover min-h-screen">
-        <Wrapper>
-          <Navbar />
-          <HeroSection />
-        </Wrapper>
-      </div>
+      <SiteBackgound>
+        <Header />
+        <HeroSection />
+      </SiteBackgound>
       <Wrapper>
         <AboutOurApp />
       </Wrapper>
+      <SiteBackgound>
+        <AppFeatures />
+      </SiteBackgound>
     </>
   );
 }

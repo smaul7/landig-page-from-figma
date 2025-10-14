@@ -1,8 +1,8 @@
 import React from "react";
-import TextBackground from "../assets/text-background.png";
-import GooglePlay from "../assets/google-play.png";
-import AppStore from "../assets/app-store.png";
-import Smartphone from "../assets/smartphone.png";
+import TextBackground from "../assets/hero/text-background.png";
+import GooglePlay from "../assets/hero/google-play.png";
+import AppStore from "../assets/hero/app-store.png";
+import Smartphone from "../assets/hero/smartphone.png";
 
 export default function HeroSection() {
   return (

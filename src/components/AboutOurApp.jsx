@@ -1,7 +1,7 @@
 import React from "react";
-import AboutOurAppImage from "../assets/about-our-app.png";
-import Check from "../assets/checkbox-circle-fill.svg?react";
-import { descriprtionCards } from "../constants";
+import AboutOurAppImage from "../assets/about/about-our-app.png";
+import Check from "../assets/about/checkbox-circle-fill.svg?react";
+import { aboutCards } from "../constants";
 import { getFirstSentences } from "../utils";
 
 export default function AboutOurApp() {
@@ -23,7 +23,7 @@ export default function AboutOurApp() {
       <div className="flex flex-col md:flex-row md:justify-between items-center mb-[92px] md:mb-[138px]">
         <img src={AboutOurAppImage} alt="about-our-app" className="w-[238px] lg:w-[386px] mb-10 md:mb-0" />
         <ul className="md:w-6/12 space-y-[20px] lg:space-y-[40px]">
-          {descriprtionCards.map((card, index) => (
+          {aboutCards.map((card, index) => (
             <li key={index} className="w-full rounded-[10px] pt-[18px] pl-[16px] pb-[10px] pr-[19px] shadow-[0_8px_10px_0_rgba(0,0,0,0.1)]">
               <div className="flex w-full gap-[18px] mb-[3px]">
                 <Check />
