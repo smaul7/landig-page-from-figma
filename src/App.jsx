@@ -5,6 +5,7 @@ import HeroSection from "./components/HeroSection";
 import AboutOurApp from "./components/AboutOurApp";
 import SiteBackgound from "./components/SiteBackground";
 import AppFeatures from "./components/AppFeatures";
+import DownloadAppNow from "./components/DownloadAppNow";
 
 export default function App() {
   return (
@@ -19,6 +20,9 @@ export default function App() {
       <SiteBackgound>
         <AppFeatures />
       </SiteBackgound>
+      <Wrapper>
+        <DownloadAppNow />
+      </Wrapper>
     </>
   );
 }

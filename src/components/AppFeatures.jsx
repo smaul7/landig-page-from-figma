@@ -29,7 +29,7 @@ export default function AppFeatures() {
                 <p className="leading-6 text-white block">{item.text}</p>
               </>
             ) : (
-              <img src={item.src} alt={item.alt} className="mx-auto w-[214px]" />
+              <img src={item.src} alt={item.alt} className="mx-auto w-[214px] lg:w-[375px]" />
             )}
           </li>
         ))}

@@ -6,6 +6,10 @@ import TelemarketerIcon from "../assets/features/telemarketer.svg?react";
 import PenIcon from "../assets/features/pen.svg?react";
 import App from "../assets/features/App.png";
 
+import DownloadIcon from "../assets/download/download.svg?react";
+import ThumbUpIcon from "../assets/download/thumb-up.svg?react";
+import StarIcon from "../assets/download/star.svg?react";
+
 export const aboutCards = [
   {
     title: "Craetive Design",
@@ -76,5 +80,23 @@ export const featuresCards = [
     title: "24/7 support by real people",
     text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
     span: "col-span-4 md:col-span-12",
+  },
+];
+
+export const downloadCards = [
+  {
+    icon: DownloadIcon,
+    count: "59865",
+    title: "Downloads",
+  },
+  {
+    icon: ThumbUpIcon,
+    count: "29852",
+    title: "Likes",
+  },
+  {
+    icon: StarIcon,
+    count: "1500",
+    title: "5 stars ratings",
   },
 ];
