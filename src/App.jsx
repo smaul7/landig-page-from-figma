@@ -6,6 +6,7 @@ import AboutOurApp from "./components/AboutOurApp";
 import SiteBackgound from "./components/SiteBackground";
 import AppFeatures from "./components/AppFeatures";
 import DownloadAppNow from "./components/DownloadAppNow";
+import HowToUse from "./components/HowToUse";
 
 export default function App() {
   return (
@@ -23,6 +24,7 @@ export default function App() {
       <Wrapper>
         <DownloadAppNow />
       </Wrapper>
+      <HowToUse />
     </>
   );
 }
