@@ -7,6 +7,7 @@ import SiteBackgound from "./components/SiteBackground";
 import AppFeatures from "./components/AppFeatures";
 import DownloadAppNow from "./components/DownloadAppNow";
 import HowToUse from "./components/HowToUse";
+import OurReativeTeam from "./components/OurReativeTeam";
 
 export default function App() {
   return (
@@ -25,6 +26,9 @@ export default function App() {
         <DownloadAppNow />
       </Wrapper>
       <HowToUse />
+      <Wrapper>
+        <OurReativeTeam />
+      </Wrapper>
     </>
   );
 }

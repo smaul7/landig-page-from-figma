@@ -4,10 +4,10 @@ import X from "../assets/header/Remove.svg";
 import Logo from "../assets/header/Logo.svg";
 import MailIcon from "../assets/header/mail-fill.svg?react";
 import PhoneIcon from "../assets/header/phone-fill.svg?react";
-import FacebookIcon from "../assets/header/facebook-fill.svg?react";
-import InstagramIcon from "../assets/header/instagram-fill.svg?react";
-import YoutubeIcon from "../assets/header/youtube-fill.svg?react";
-import TwitterIcon from "../assets/header/twitter-fill.svg?react";
+import FacebookIcon from "../assets/shared/facebook-fill.svg?react";
+import InstagramIcon from "../assets/shared/instagram-fill.svg?react";
+import YoutubeIcon from "../assets/shared/youtube-fill.svg?react";
+import TwitterIcon from "../assets/shared/twitter-fill.svg?react";
 
 export default function Header() {
   const [mobileDrawerOpen, setmobileDrawerOpen] = useState(false);

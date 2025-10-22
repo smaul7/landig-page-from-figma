@@ -10,6 +10,10 @@ import DownloadIcon from "../assets/download/download.svg?react";
 import ThumbUpIcon from "../assets/download/thumb-up.svg?react";
 import StarIcon from "../assets/download/star.svg?react";
 
+import CarlaPfp from "../assets/team/Carla.png";
+import GraigPfp from "../assets/team/Graig.png";
+import JocelynPfp from "../assets/team/Jocelyn.png";
+
 export const aboutCards = [
   {
     title: "Craetive Design",
@@ -98,5 +102,26 @@ export const downloadCards = [
     icon: StarIcon,
     count: "1500",
     title: "5 stars ratings",
+  },
+];
+
+export const teamCards = [
+  {
+    pfp: CarlaPfp,
+    name: "Carla Press",
+    position: "App Developer",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra nunc ante velit vitae. Est tellus vitae.",
+  },
+  {
+    pfp: GraigPfp,
+    name: "Graig Fouse",
+    position: "UI/UX Designer",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra nunc ante velit vitae. Est tellus vitae.",
+  },
+  {
+    pfp: JocelynPfp,
+    name: "Jocelyn Seotimus",
+    position: "Website Developer",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra nunc ante velit vitae. Est tellus vitae.",
   },
 ];
