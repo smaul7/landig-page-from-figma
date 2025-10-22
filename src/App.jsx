@@ -8,6 +8,7 @@ import AppFeatures from "./components/AppFeatures";
 import DownloadAppNow from "./components/DownloadAppNow";
 import HowToUse from "./components/HowToUse";
 import OurReativeTeam from "./components/OurReativeTeam";
+import Blog from "./components/Blog";
 
 export default function App() {
   return (
@@ -28,6 +29,7 @@ export default function App() {
       <HowToUse />
       <Wrapper>
         <OurReativeTeam />
+        <Blog />
       </Wrapper>
     </>
   );

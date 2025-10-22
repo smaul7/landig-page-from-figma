@@ -14,6 +14,10 @@ import CarlaPfp from "../assets/team/Carla.png";
 import GraigPfp from "../assets/team/Graig.png";
 import JocelynPfp from "../assets/team/Jocelyn.png";
 
+import Snapchat from "../assets/blog/snapchat.png";
+import Insta from "../assets/blog/insta.png";
+import YouCan from "../assets/blog/you-can.png";
+
 export const aboutCards = [
   {
     title: "Craetive Design",
@@ -123,5 +127,23 @@ export const teamCards = [
     name: "Jocelyn Seotimus",
     position: "Website Developer",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra nunc ante velit vitae. Est tellus vitae.",
+  },
+];
+
+export const blogCards = [
+  {
+    picture: Snapchat,
+    title: "The Snap Pixel: How It Works and How to Install",
+    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra nunc ante velit vitae. Est tellus vitae, nullam lobortis enim.",
+  },
+  {
+    picture: Insta,
+    title: "Global Partner Solutions: A Partnership of Innovation",
+    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra nunc ante velit vitae. Est tellus vitae, nullam lobortis enim.",
+  },
+  {
+    picture: YouCan,
+    title: "2021: An opportunity for Snapchatters to start fresh",
+    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra nunc ante velit vitae. Est tellus vitae, nullam lobortis enim.",
   },
 ];
