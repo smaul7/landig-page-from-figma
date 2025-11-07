@@ -9,6 +9,7 @@ import DownloadAppNow from "./components/DownloadAppNow";
 import HowToUse from "./components/HowToUse";
 import OurReativeTeam from "./components/OurReativeTeam";
 import Blog from "./components/Blog";
+import Footer from "./components/Footer";
 
 export default function App() {
   return (
@@ -31,6 +32,7 @@ export default function App() {
         <OurReativeTeam />
         <Blog />
       </Wrapper>
+      <Footer />
     </>
   );
 }

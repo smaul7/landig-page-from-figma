@@ -6,7 +6,6 @@ import FacebookIcon from "../assets/shared/facebook-fill.svg?react";
 import InstagramIcon from "../assets/shared/instagram-fill.svg?react";
 import YoutubeIcon from "../assets/shared/youtube-fill.svg?react";
 import TwitterIcon from "../assets/shared/twitter-fill.svg?react";
-import VerticalLine from "../assets/team/line.svg?react";
 
 export default function OurReativeTeam() {
   const text =
@@ -15,7 +14,7 @@ export default function OurReativeTeam() {
   return (
     <section className="mb-[60px] md:mb-[120px]">
       <h2 className="font-semibold md:font-bold text-[25px] md:text-[32px] leading-[38px] md:leading-[47px] uppercase text-center pt-[60px] md:mt-[120px] mb-[40px]">
-        How to use the app perfectly
+        Our Reative Team
       </h2>
       <p className="block md:hidden leading-6 text-center mb-[40px]">{getFirstSentences(text, 2)}</p>
       <p className="hidden md:block lg:hidden leading-6 text-center mb-[60px]">{getFirstSentences(text, 4)}</p>
@@ -32,14 +31,13 @@ export default function OurReativeTeam() {
             </h3>
             <p className="leading-[24px] font-semibold text-gray-500 uppercase pb-[14px]">{card.position}</p>
             <p className="leading-[24px] pb-[29px] text-gray-500">{card.description}</p>
-            <div className="flex justify-around">
+            <div className="flex items-center justify-center gap-[20px] md:gap-[5px] lg:gap-[10px]">
               {[FacebookIcon, InstagramIcon, YoutubeIcon, TwitterIcon].map((Icon, i, arr) => (
                 <React.Fragment key={i}>
                   <a href="#" className="flex items-center justify-center">
-                    <Icon className="w-[24px] h-[24px] text-black transition-all duration-300 hover:text-indigo-500" />
+                    <Icon className="w-[24px] h-[24px] transition-all duration-300 hover:text-indigo-500" />
                   </a>
-
-                  {i < arr.length - 1 && <VerticalLine className="h-6 text-black" />}
+                  {i < arr.length - 1 && <div className="h-6 w-px bg-black mx-3" />}
                 </React.Fragment>
               ))}
             </div>

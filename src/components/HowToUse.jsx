@@ -19,7 +19,7 @@ export default function HowToUse() {
           <p className="hidden lg:block leading-6 text-center mb-[60px] text-white">{text}</p>
         </section>
       </div>
-      <div className="bg-gradient-to-b from-transparent from-[50%] to-white to-[50%]">
+      <div className="bg-gradient-to-b from-transparent from-[50%] to-white to-[50%] py-[1px]">
         <div className="w-full mx-auto max-w-[1232px] px-4 md:px-6 ">
           <img src={Video} alt="video" className="w-full mx-auto md:w-10/12 lg:w-8/12 px-4 md:px-6" />
         </div>
