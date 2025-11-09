@@ -1,7 +1,6 @@
 import React from "react";
 import { getFirstSentences } from "../utils";
 import { featuresCards } from "../constants";
-import App from "../assets/features/App.png";
 
 export default function AppFeatures() {
   return (

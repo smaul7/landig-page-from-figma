@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Menu from "../assets/header/menu-line.svg";
-import X from "../assets/header/Remove.svg";
-import Logo from "../assets/header/Logo.svg";
+import X from "../assets/header/remove.svg";
+import Logo from "../assets/header/logo.svg";
 import MailIcon from "../assets/header/mail-fill.svg?react";
 import PhoneIcon from "../assets/header/phone-fill.svg?react";
 import FacebookIcon from "../assets/shared/facebook-fill.svg?react";

@@ -4,15 +4,15 @@ import CommentIcon from "../assets/features/comment.svg?react";
 import EyeScannerIcon from "../assets/features/eye-scanner.svg?react";
 import TelemarketerIcon from "../assets/features/telemarketer.svg?react";
 import PenIcon from "../assets/features/pen.svg?react";
-import App from "../assets/features/App.png";
+import App from "../assets/features/app.png";
 
 import DownloadIcon from "../assets/download/download.svg?react";
 import ThumbUpIcon from "../assets/download/thumb-up.svg?react";
 import StarIcon from "../assets/download/star.svg?react";
 
-import CarlaPfp from "../assets/team/Carla.png";
-import GraigPfp from "../assets/team/Graig.png";
-import JocelynPfp from "../assets/team/Jocelyn.png";
+import CarlaPfp from "../assets/team/carla.png";
+import GraigPfp from "../assets/team/graig.png";
+import JocelynPfp from "../assets/team/jocelyn.png";
 
 import Snapchat from "../assets/blog/snapchat.png";
 import Insta from "../assets/blog/insta.png";
