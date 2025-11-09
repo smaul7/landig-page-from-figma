@@ -38,7 +38,7 @@ export default function Header() {
             <a
               key={i}
               href="#"
-              className="p-2 rounded-lg bg-indigo-500 shadow-md transition-all duration-300 hover:bg-indigo-600 hover:text-white hover:scale-110 flex items-center justify-center"
+              className="p-2 rounded-lg bg-indigo-500 shadow-md transition-all duration-300 hover:bg-indigo-600 text-white hover:text-black hover:scale-110 flex items-center justify-center"
             >
               <Icon className="w-5 h-5" />
             </a>

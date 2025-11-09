@@ -17,24 +17,26 @@ export default function Footer() {
     <section>
       <div className="bg-black">
         <div className="bg-gradient-to-b from-white from-[50%] to-transparent to-[50%] px-4 md:px-6 mb-[60px] lg:mb-[120px]">
-          <ul className="gap-[50px] md:gap-0 w-full py-[30px]  flex flex-col md:flex-row items-center bg-white rounded-[10px] shadow-[0_8px_10px_0_rgba(0,0,0,0.1)]">
-            <li className="relative md:w-1/2 md:pl-[30px] text-center flex gap-[20px] flex-col md:flex-row items-center">
-              <EmailButton className="w-[50px] md:w-[60px] h-[50px] md:h-[60px]" />
-              <a href="#" className="uppercase text-[20px] leading-[30px] font-semibold md:lowercase md:text-[16px] md:leading-[24px] md:font-normal">
-                info.design@gmail.com
-              </a>
+          <div className="w-full mx-auto max-w-[1232px] px-4 md:px-6 ">
+            <ul className="gap-[50px] md:gap-0 w-full py-[30px]  flex flex-col md:flex-row items-center bg-white rounded-[10px] shadow-[0_8px_10px_0_rgba(0,0,0,0.1)]">
+              <li className="relative md:w-1/2 md:pl-[30px] text-center flex gap-[20px] flex-col md:flex-row items-center">
+                <EmailButton className="w-[50px] md:w-[60px] h-[50px] md:h-[60px]" />
+                <a href="#" className="uppercase text-[20px] leading-[30px] font-semibold md:lowercase md:text-[16px] md:leading-[24px] md:font-normal">
+                  info.design@gmail.com
+                </a>
 
-              <div className="absolute -bottom-[25px] left-1/2 -translate-x-1/2 w-1/3 h-[2px] bg-black md:hidden"></div>
-              <div className="hidden md:block absolute right-0 top-1/2 -translate-y-1/2 h-full w-[2px] bg-black"></div>
-            </li>
+                <div className="absolute -bottom-[25px] left-1/2 -translate-x-1/2 w-1/3 h-[2px] bg-black md:hidden"></div>
+                <div className="hidden md:block absolute right-0 top-1/2 -translate-y-1/2 h-full w-[2px] bg-black"></div>
+              </li>
 
-            <li className="md:w-1/2 md:pl-[30px] text-center flex gap-[20px] flex-col md:flex-row items-center">
-              <PhoneButton className="w-[50px] md:w-[60px] h-[50px] md:h-[60px]" />
-              <a href="#" className="uppercase text-[20px] leading-[30px] font-semibold md:lowercase md:text-[16px] md:leading-[24px] md:font-normal">
-                +880 321 655 9985
-              </a>
-            </li>
-          </ul>
+              <li className="md:w-1/2 md:pl-[30px] text-center flex gap-[20px] flex-col md:flex-row items-center">
+                <PhoneButton className="w-[50px] md:w-[60px] h-[50px] md:h-[60px]" />
+                <a href="#" className="uppercase text-[20px] leading-[30px] font-semibold md:lowercase md:text-[16px] md:leading-[24px] md:font-normal">
+                  +880 321 655 9985
+                </a>
+              </li>
+            </ul>
+          </div>
         </div>
         <div className="w-full mx-auto max-w-[1232px] px-4 md:px-6 ">
           <div className="flex flex-col md:flex-row text-white gap-[60px] pb-[60px] md:gap-[30px] border-b border-white">
