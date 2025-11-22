@@ -5,6 +5,7 @@ import HeroSection from "./components/HeroSection";
 import AboutOurApp from "./components/AboutOurApp";
 import SiteBackgound from "./components/SiteBackground";
 import AppFeatures from "./components/AppFeatures";
+import Interface from "./components/Interface/Interface";
 import DownloadAppNow from "./components/DownloadAppNow";
 import HowToUse from "./components/HowToUse";
 import OurReativeTeam from "./components/OurReativeTeam";
@@ -24,6 +25,7 @@ export default function App() {
       <SiteBackgound>
         <AppFeatures />
       </SiteBackgound>
+      <Interface />
       <Wrapper>
         <DownloadAppNow />
       </Wrapper>
