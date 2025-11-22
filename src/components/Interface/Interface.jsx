@@ -57,7 +57,7 @@ export default function Interface() {
         className="mySwiper"
       >
         {slides.map((slide, index) => (
-          <SwiperSlide className="shadow-[0_8px_10px_0_rgba(0,0,0,0.1)] rounded-[10px]" id={index}>
+          <SwiperSlide id={index}>
             <a href="#">
               <img src={slide.img} alt={slide.alt} />
             </a>
