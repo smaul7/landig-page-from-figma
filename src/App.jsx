@@ -9,6 +9,7 @@ import Interface from "./components/Interface/Interface";
 import DownloadAppNow from "./components/DownloadAppNow";
 import HowToUse from "./components/HowToUse";
 import OurReativeTeam from "./components/OurReativeTeam";
+import Customers from "./components/Customers/Customers";
 import Blog from "./components/Blog";
 import Footer from "./components/Footer";
 
@@ -32,6 +33,9 @@ export default function App() {
       <HowToUse />
       <Wrapper>
         <OurReativeTeam />
+      </Wrapper>
+      <Customers />
+      <Wrapper>
         <Blog />
       </Wrapper>
       <Footer />

@@ -14,6 +14,8 @@ import CarlaPfp from "../assets/team/carla.png";
 import GraigPfp from "../assets/team/graig.png";
 import JocelynPfp from "../assets/team/jocelyn.png";
 
+import AnnPfp from "../assets/customers/ann.png";
+
 import Snapchat from "../assets/blog/snapchat.png";
 import Insta from "../assets/blog/insta.png";
 import YouCan from "../assets/blog/you-can.png";
@@ -127,6 +129,44 @@ export const teamCards = [
     name: "Jocelyn Seotimus",
     position: "Website Developer",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra nunc ante velit vitae. Est tellus vitae.",
+  },
+];
+
+export const customersCards = [
+  {
+    pfp: AnnPfp,
+    name: "Ann Lubin",
+    position: "Co-Founder",
+    destimonial:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra nunc ante velit vitae. Est tellus vitae, nullam lobortis enim. Faucibus amet etiam tincidunt rhoncus, ullamcorper velit. Ullamcorper risus tempor, ac nunc libero urna, feugiat.",
+  },
+  {
+    pfp: AnnPfp,
+    name: "Ann Lubin",
+    position: "Co-Founder",
+    destimonial:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra nunc ante velit vitae. Est tellus vitae, nullam lobortis enim. Faucibus amet etiam tincidunt rhoncus, ullamcorper velit. Ullamcorper risus tempor, ac nunc libero urna, feugiat.",
+  },
+  {
+    pfp: AnnPfp,
+    name: "Ann Lubin",
+    position: "Co-Founder",
+    destimonial:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra nunc ante velit vitae. Est tellus vitae, nullam lobortis enim. Faucibus amet etiam tincidunt rhoncus, ullamcorper velit. Ullamcorper risus tempor, ac nunc libero urna, feugiat.",
+  },
+  {
+    pfp: AnnPfp,
+    name: "Ann Lubin",
+    position: "Co-Founder",
+    destimonial:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra nunc ante velit vitae. Est tellus vitae, nullam lobortis enim. Faucibus amet etiam tincidunt rhoncus, ullamcorper velit. Ullamcorper risus tempor, ac nunc libero urna, feugiat.",
+  },
+  {
+    pfp: AnnPfp,
+    name: "Ann Lubin",
+    position: "Co-Founder",
+    destimonial:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra nunc ante velit vitae. Est tellus vitae, nullam lobortis enim. Faucibus amet etiam tincidunt rhoncus, ullamcorper velit. Ullamcorper risus tempor, ac nunc libero urna, feugiat.",
   },
 ];
 

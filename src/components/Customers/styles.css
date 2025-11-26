@@ -1,0 +1,26 @@
+.swiper-customers {
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    width: 100%;
+    box-shadow: 0 8px 10px 0 rgba(0, 0, 0, 0.1) !important;
+    border-radius: 20px !important;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  @media (min-width: 768px) {
+    .swiper-slide {
+      width: 33.333%;
+    }
+  }
+
+  @media (min-width: 1024px) {
+    .swiper-button-prev,
+    .swiper-button-next {
+      display: block;
+    }
+  }
+}

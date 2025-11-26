@@ -54,7 +54,7 @@ export default function Interface() {
         }}
         navigation={true}
         modules={[EffectCoverflow, Pagination, Navigation]}
-        className="mySwiper"
+        className="swiper-interface"
       >
         {slides.map((slide, index) => (
           <SwiperSlide id={index}>
