@@ -1,31 +1,39 @@
 # AppolyLanding
-Адаптивна верстка за готовим дизайном figma 
 
-Технології
+Адаптивна верстка лендінг-сторінки за готовим дизайном Figma.
 
-- React
-- Tailwind CSS
-- Swiper.js
-- Vite
-- Netlify
+🔗 **[Live Demo](https://apolly-landing.netlify.app)** · **[Figma дизайн](https://www.figma.com/design/j9ztwjy2PFoNlVt4og3wLA/App-Landing-Page-Template-%7C-Mobile-App-Landing-Page--Community-?node-id=0-3)**
 
-Що реалізовано
+---
 
-- Повна адаптивність: мобільний, планшет, десктоп
-- Слайдер відгуків з Coverflow-ефектом (Swiper.js)
-- Утиліти для обробки тексту залежно від breakpoint
-- Компонентна структура проєкту
+## Про проєкт
 
-Запуск локально
+Верстка на основі готового Figma-макету. Основна мета — максимально точно перенести дизайн у код з повною адаптивністю для мобільних, планшетних та десктопних екранів.
 
-git clone https://github.com/smaul7/landig-page-from-figma.git
+## Технології
 
-cd landig-page-from-figma
+- **React** — компонентна структура
+- **Tailwind CSS** — утилітарна стилізація та адаптив (mobile-first)
+- **Swiper.js** — слайдер відгуків з ефектом coverflow
+- **Vite** — збірка проєкту
+- **Netlify** — деплой
 
+## Що реалізовано
+
+- Повна адаптивність: mobile / tablet / desktop (breakpoints: 768px, 1024px)
+- Слайдер відгуків із 3D coverflow-ефектом та адаптивними параметрами під різні екрани
+- Утилітарна функція `getFirstSentences` для відображення різної кількості тексту залежно від брейкпоінту
+- Компонентна структура з окремими стилями для кожного розділу
+
+## Запуск локально
+
+```bash
+git clone https://github.com/your-username/AppolyLanding.git
+cd AppolyLanding
 npm install
-
 npm run dev
+```
 
-Чого навчився
+## Що навчився
 
-Організувай свої навички та  самостійно створив front end за готовим дизайном Figma; Вперше працював з swiper.js
+Самостійно склав стак та реалізував верстку за готовим дизайном figma. Практикував mobile-first підхід з Tailwind та налаштування складних компонентів на кшталт Swiper з кастомними ефектами під різні брейкпоінти.
